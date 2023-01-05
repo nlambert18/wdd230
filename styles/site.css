@@ -1,0 +1,27 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    border: 2px black solid;
+}
+
+header img{
+    margin: 1rem;
+
+}
+
+header h1{
+    text-align: center;
+}
+
+header div:nth-child(2){
+    width: 100%;
+}
+
+#content{margin: 0 auto;
+width: 800px;}
