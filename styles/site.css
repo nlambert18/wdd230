@@ -5,13 +5,14 @@ body{
 header{
     display: flex;
     align-items: center;
-    background-color: aqua;
+    background-color: gray;
     color: white;
     border: 2px black solid;
 }
 
 header img{
     margin: 1rem;
+
 
 }
 
@@ -23,5 +24,17 @@ header div:nth-child(2){
     width: 100%;
 }
 
-#content{margin: 0 auto;
-width: 800px;}
+#content{
+    margin: 0 auto;
+    width: 800px;
+}
+
+footer{
+    align-items: center;
+    background-color: gray;
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+
+}
