@@ -1,23 +1,27 @@
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Rowdies', cursive;
 }
 
 header{
     display: flex;
     align-items: center;
-    background-color: gray;
-    color: white;
+    background-color: rgb(119, 119, 199);
+    color: black;
     border: 2px black solid;
 }
 
 header img{
     margin: 1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px darkslategrey;
 
 
 }
 
 header h1{
     text-align: center;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
 }
 
 header div:nth-child(2){
@@ -26,13 +30,13 @@ header div:nth-child(2){
 
 #content{
     margin: 0 auto;
-    width: 800px;
+    width: 1000px;
 }
 
 footer{
     align-items: center;
-    background-color: gray;
-    color: white;
+    background-color: rgb(119, 119, 199);
+    color: black;
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
