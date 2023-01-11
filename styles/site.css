@@ -21,7 +21,7 @@ header img{
 
 header h1{
     text-align: center;
-    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    
 }
 
 header div:nth-child(2){
