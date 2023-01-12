@@ -12,6 +12,8 @@ header{
 
 header img{
     margin: 1rem;
+    width: 50%;
+    height: 50%;
     border: 2px solid black;
     border-radius: 15px;
     box-shadow: 10px 10px darkslategrey;
@@ -30,7 +32,7 @@ header div:nth-child(2){
 
 #content{
     margin: 0 auto;
-    width: 1000px;
+    width: 640px;
 }
 
 footer{
