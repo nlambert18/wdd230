@@ -1,0 +1,68 @@
+body{
+    font-family: 'Rowdies', cursive;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(19, 19, 72);
+    color: white;
+    border: 2px black solid;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+}
+
+h3{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(119, 119, 199);
+    border-radius: 15px 15px 0 0;
+}
+
+div{
+    border: 2px black solid;
+    border-radius: 15px 15px 0 0;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    
+}
+
+.section1{
+    text-align: center;
+    background-color: lightgray;
+    
+}
+
+.section2{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.section3{
+    text-align: center;
+    background-color: lightgray;
+}
+
+  
+  img {
+   max-width: 75%;
+   border: 2px;
+   border-color: black;
+   border-style: solid;
+  }
+  
+  footer{
+    align-items: center;
+    background-color: rgb(19, 19, 72);
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+  
