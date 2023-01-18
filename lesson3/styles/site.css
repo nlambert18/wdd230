@@ -1,0 +1,65 @@
+body{
+    font-family: 'Rowdies', cursive;
+}
+
+header, footer, main{
+    max-width: 40em;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+
+header{
+    text-align: center;
+    background-color: rgb(19, 19, 72);
+    color: white;
+    border: 2px black solid;
+    padding: 1rem;
+}
+
+
+nav{
+    margin: 0 auto;
+    padding: 1rem;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+
+li{
+    border: 2px black solid;
+    text-align: center;
+    min-width: 12.5em;
+}
+
+nav a{
+    display: block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 119, 199);
+    
+}
+
+footer{
+    align-items: center;
+    background-color: rgb(19, 19, 72);
+    color: white;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+@media screen and (min-width: 37.5em){
+    nav ul{
+        flex-direction: row;
+    }
+}
