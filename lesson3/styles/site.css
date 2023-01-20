@@ -2,7 +2,7 @@ body{
     font-family: 'Rowdies', cursive;
 }
 
-header, footer, main{
+header, footer, main, #th2{
     max-width: 40em;
     margin: 0 auto;
     border: 2px solid black;
@@ -62,8 +62,7 @@ nav a{
 }
 
 h2{
-    text-align: center;
-    
+    text-align: center; 
 }
 
 footer{
