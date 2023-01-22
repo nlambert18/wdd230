@@ -140,6 +140,7 @@ section img{
 #design{
     background-color: rgb(19, 19, 72);
     border: 2px black solid;
+    color: white;
     margin: 5px 0;
     padding: 1rem;
 
@@ -181,7 +182,7 @@ section img{
 
 #p5{
     border: 2px black solid;
-    color: white;
+    color: black;
     max-width: 50%;
     margin: 5px auto;
     padding: 0 5px;
