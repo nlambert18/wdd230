@@ -2,16 +2,34 @@ body{
     font-family: 'Rowdies', cursive;
 }
 
-header, footer, main, #th2{
+header, footer, main{
     max-width: 40em;
     margin: 0 auto;
     border: 2px solid black;
     padding: 1rem;
 }
 
+main{
+    background-color: rgb(119, 119, 157);
+    color: white;
+}
+
 #tmain{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "ta1 ta1"
+                         "ta2 ta3";
+}
+
+#ta1{
+    grid-area: ta1;
+}
+
+#ta2{
+    grid-area: ta2;
+}
+
+#ta3{
+    grid-area: ta3;
 }
 
 header{
@@ -20,6 +38,16 @@ header{
     color: white;
     border: 2px black solid;
     padding: 1rem;
+}
+
+#logo{
+    text-align: center;
+}
+
+#logo img{
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
 }
 
 
@@ -76,11 +104,11 @@ footer{
 }
 
 section{
-    height: 100%;
-    margin: 5px;
+    text-align: center;
+    margin: 1rem;
     padding: 5px;
-    align-items: center;
     border: 2px black solid;
+    background-color: rgb(119, 119, 199);
     
 }
 
@@ -88,10 +116,13 @@ section img{
     max-height: 200px;
     width: 75%;
     max-width: 134px;
-    justify-self: middle;
     border: 2px black solid;
     box-shadow: 5px 5px darkslategrey;
     
+}
+
+.tatext{
+    text-align: left;
 }
 
 
