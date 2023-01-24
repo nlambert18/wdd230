@@ -17,6 +17,7 @@ main{
 #tmain{
     display: grid;
     grid-template-areas: "ta1 ta1"
+                         "ta4 ta4"
                          "ta2 ta3";
 }
 
@@ -32,6 +33,10 @@ main{
 
 #ta3{
     grid-area: ta3;
+}
+
+#ta4{
+    grid-area: ta4;
 }
 
 header{
