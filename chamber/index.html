@@ -14,19 +14,24 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="hdiv">
             <img class="logo" src="./images/logo.png" alt="logo_top">
-            <h1>City on the Lake</h1>
-            <p>Chamber of Commerce</p></div>
-        
+            <div>
+                <h1>City on the Lake</h1>
+                <p>Chamber of Commerce</p>
+            </div>
         <nav>
-            <ul>
+            <button id="hamburger-menu">
+                <span id="menu-closed">&equiv;</span>
+                <span id="menu-open">X</span>
+            </button>
+            <ul id="navbar">
                 <li class="active"><a id="active" href="index.html">Discover</a></li>
                 <li><a>Directory</a></li>
                 <li><a>Join</a></li>
                 <li><a>Contact</a></li>
             </ul>
-        </nav>
+        </nav></div>
         <div><span id="fulldate"></span></div>
     </header>
     <main class="chmain">
@@ -35,9 +40,9 @@
         <div class="md3"><p>join</p></div>
         <div class="md4"><p>site name call to action</p></div>
         <div class="md5"><p>news release</p></div>
-        <div class="md6"><p>spotlight1</p>
-            <p>spotlight2</p>
-            <p>spotlight3</p></div>
+        <div class="md6"><p class="md6p">spotlight1</p>
+            <p class="md6p">spotlight2</p>
+            <p class="md6p" id="sp3">spotlight3</p></div>
         
 
 

@@ -3,7 +3,7 @@ body{
 }
 
 header, footer, .chmain{
-    max-width: 37.5em;
+    max-width: 95%;
 }
 
 header, footer{
@@ -13,20 +13,30 @@ header, footer{
 
 }
 
+header{
+    display: block;
+    
+}
+
 footer{
     text-align: center;
+}
+
+.hdiv{
+    display: flex;
 }
 
 nav{
     margin: 0 auto;
     padding: 1rem;
+    text-align: end;
 }
 
 nav ul {
+    text-align: center;
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding-inline-start: 0px;
   }
 
   nav ul li{
@@ -49,8 +59,7 @@ main div{
         border: 2px black solid;
         width: auto;
         height: auto;
-        margin-top: 5px;
-        margin-right: 2px;
+        margin: 2px;
         padding: 2px;
     
 }
@@ -61,27 +70,50 @@ main div{
     box-sizing: border-box;
 }
 
-.md1{
-    
-}
-
-.md2{
-    
-}
-
-.md3{
-    
-}
-
-.md4{
-    
-}
-
-.md5{
-    
-}
 
 .md6{
     
     text-align: center;
 }
+
+.md6p{
+    border: 1px black solid;
+    margin: auto;
+    padding: 5px;
+}
+
+#sp3{
+    display: none;
+}
+
+#hamburger-menu{
+    background-color: rgb(119, 119, 199);  
+    font-size: 2rem;
+    border: 0;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  #menu-open{
+    display: none;
+  }
+  
+  #menu-closed{
+    display: inline;
+    
+  }
+  
+  #navbar.menu-active{
+    display: flex;
+  }
+  
+  #menu-open.menu-active{
+    display: inline;
+  }
+  
+  #menu-closed.menu-active{
+    display: none;
+  }
+  

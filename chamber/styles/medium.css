@@ -32,4 +32,10 @@
     .md6{
         grid-area: md6;
     }
+
+    .md6{
+        display: flex;
+    }
+
+    
 }
