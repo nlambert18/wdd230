@@ -1,0 +1,87 @@
+body{
+    font-family: 'Rowdies', cursive;
+}
+
+header, footer, .chmain{
+    max-width: 37.5em;
+}
+
+header, footer{
+    border: 2px black solid;
+    background-color: rgb(19, 19, 72);
+    color: white;
+
+}
+
+footer{
+    text-align: center;
+}
+
+nav{
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+
+  nav ul li{
+    border: 2px white solid;
+    text-align: center;
+    min-width: 5em;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2px;
+    background-color: rgb(119, 119, 199);
+}
+
+.logo{
+    border: 2px greenyellow solid;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+main div{
+    
+        border: 2px black solid;
+        width: auto;
+        height: auto;
+        margin-top: 5px;
+        margin-right: 2px;
+        padding: 2px;
+    
+}
+
+.chmain{
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+}
+
+.md1{
+    
+}
+
+.md2{
+    
+}
+
+.md3{
+    
+}
+
+.md4{
+    
+}
+
+.md5{
+    
+}
+
+.md6{
+    
+    text-align: center;
+}

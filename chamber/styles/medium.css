@@ -1,0 +1,35 @@
+@media screen and (min-width: 37.5em){
+    .chmain{
+        display: grid;
+        grid-template-areas: "md1 md1"
+                             "md5 md5"
+                             "md6 md6"
+                             "md3 md3" 
+                             "md4 md2"
+                             ;
+    }
+
+    .md1{
+        grid-area: md1;
+    }
+
+    .md2{
+        grid-area: md2;
+    }
+
+    .md3{
+        grid-area: md3;
+    }
+
+    .md4{
+        grid-area: md4;
+    }
+
+    .md5{
+        grid-area: md5;
+    }
+
+    .md6{
+        grid-area: md6;
+    }
+}
