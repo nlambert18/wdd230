@@ -23,36 +23,75 @@ footer{
 }
 
 .hdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    
+}
+
+.chamber{
     display: flex;
+    grid-column: 1/3;
+    grid-row: 1/2;
 }
 
 nav{
-    margin: 0 auto;
     padding: 1rem;
-    text-align: end;
+    grid-column: 2/3;
 }
+
+.social{
+    grid-column: 1/2;
+}
+
+.navdiv{
+    text-align: right;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+}
+
+
 
 nav ul {
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
+    position: relative;
   }
 
   nav ul li{
-    border: 2px white solid;
+    border: 1px white solid;
     text-align: center;
     min-width: 5em;
-    border-radius: 10px 10px 10px 10px;
-    margin: 2px;
+    
     background-color: rgb(119, 119, 199);
 }
 
-.logo{
-    border: 2px greenyellow solid;
+header .logo{
+    
+    max-width: 150px;
+    max-height: 150px;
+    grid-column: 1/2;
+}
+footer .logo{
+    
     max-width: 100px;
     max-height: 100px;
+    grid-column: 1/2;
+    
 }
+.date{
+    background-color: rgb(216, 216, 235);
+    color: black;
+    text-align: center;
+    margin: 10px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    padding: 5px;
+    
+}
+
 
 main div{
     
@@ -61,13 +100,14 @@ main div{
         height: auto;
         margin: 2px;
         padding: 2px;
-    
+        
 }
 
 .chmain{
     display: grid;
     grid-template-columns: 1fr;
     box-sizing: border-box;
+    background-color: rgb(216, 216, 235);
 }
 
 
@@ -86,10 +126,18 @@ main div{
     display: none;
 }
 
+.navdiv img{
+    height: 25px;
+    width: 25px;
+    padding-top: 1rem;
+}
+
 #hamburger-menu{
     background-color: rgb(119, 119, 199);  
     font-size: 2rem;
     border: 0;
+    
+    
   }
   
   #navbar{
@@ -98,11 +146,12 @@ main div{
   
   #menu-open{
     display: none;
+    text-align: right;
   }
   
   #menu-closed{
     display: inline;
-    
+  
   }
   
   #navbar.menu-active{
