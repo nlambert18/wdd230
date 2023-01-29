@@ -166,3 +166,7 @@ main div{
     display: none;
   }
   
+  .school{
+    border-top: 1px white solid;
+    padding-top: 5px;
+  }

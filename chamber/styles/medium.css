@@ -37,5 +37,21 @@
         display: flex;
     }
 
-    
+    nav ul li{
+        margin: 0 auto;
+    }
+
+    .footdiv1{
+        display: grid;
+        
+    }
+
+    .add{
+        grid-column: 1/2;
+        display: flex;
+    }
+
+    .email{
+        grid-column: 2/3;
+    }
 }
