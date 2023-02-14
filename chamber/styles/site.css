@@ -1,10 +1,9 @@
 body{
     font-family: 'Rowdies', cursive;
+    margin: 5px;
 }
 
-header, footer, .chmain{
-    max-width: 95%;
-}
+
 
 header, footer{
     border: 2px black solid;
@@ -24,7 +23,7 @@ footer{
 
 .hdiv{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
     
 }
 
@@ -39,15 +38,18 @@ nav{
     grid-column: 2/3;
 }
 
-.social{
-    grid-column: 1/2;
+.htext{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
-.navdiv{
+.social{
     text-align: right;
     grid-column: 3/4;
     grid-row: 1/2;
-    display: grid;
+    display: inline;
+    margin-right: 5px;
 }
 
 
@@ -58,12 +60,15 @@ nav ul {
     flex-direction: column;
     list-style: none;
     position: relative;
+    
   }
 
   nav ul li{
     border: 1px white solid;
     text-align: center;
-    min-width: 5em;
+    width: 100%;
+    min-width: 10em;
+
     
     background-color: rgb(119, 119, 199);
 }
@@ -126,7 +131,7 @@ main div{
     display: none;
 }
 
-.navdiv img{
+.social img{
     height: 25px;
     width: 25px;
     padding-top: 1rem;
@@ -140,6 +145,16 @@ main div{
     
   }
   
+  nav ul li.active{
+    background-color: rgba(216, 216, 235, 0.9);
+    color:black;
+}
+
+nav ul li:hover{
+    background-color: rgba(216, 216, 235, 0.9);
+    color: black;
+}
+
   #navbar{
     display: none;
   }
@@ -170,3 +185,22 @@ main div{
     border-top: 1px white solid;
     padding-top: 5px;
   }
+
+  footer a{
+    color: white;
+  }
+
+  
+#meet-greet{
+    display: none;
+}
+
+#meet-greet.active{
+    background-color: rgb(216, 216, 235);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid black;
+    display: block;
+    padding: .5rem;
+}

@@ -1,6 +1,7 @@
 @media screen and (min-width: 37.5em){
     .chmain{
         display: grid;
+        grid-template-columns: 2fr 1fr;
         grid-template-areas: "md1 md1"
                              "md5 md5"
                              "md6 md6"
@@ -53,5 +54,9 @@
 
     .email{
         grid-column: 2/3;
+    }
+
+    .chocom{
+        margin-left: 10px;
     }
 }

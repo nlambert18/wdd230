@@ -51,17 +51,14 @@
         
       }
 
-      nav{
+      .navdiv{
+        
         padding: 1rem;
-        grid-column: 1/2;
-        grid-row: 1/2
+        grid-column: 1/4;
+        grid-row: 2/3
     }
     
-    .social{
-        grid-column: 2/3;
-        margin: 12px;
-        padding-right: 10px;
-        width: 70px;
-    }
+    
+
 
 }
