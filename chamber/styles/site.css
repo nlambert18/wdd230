@@ -137,6 +137,15 @@ main div{
     padding-top: 1rem;
 }
 
+.weather{
+    text-align: center;
+}
+
+.weatherimg{
+    height: 75px;
+    width: 75px;
+}
+
 #hamburger-menu{
     background-color: rgb(119, 119, 199);  
     font-size: 2rem;
