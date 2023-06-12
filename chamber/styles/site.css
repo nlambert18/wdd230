@@ -143,6 +143,7 @@ main div{
 
 .weather{
     text-align: center;
+    padding: 2rem;
 }
 
 .weatherimg{
@@ -265,4 +266,9 @@ padding-bottom: 1rem;
 
 .hamburger{
     justify-self: right;
+}
+
+.looks{
+    border-bottom: 1px black solid;
+    
 }
