@@ -242,6 +242,7 @@ text-align: center;
 }
 
 .md1{
+padding: 1rem;
  text-align: center;
 }
 
@@ -271,4 +272,8 @@ padding-bottom: 1rem;
 .looks{
     border-bottom: 1px black solid;
     
+}
+
+.md5{
+    padding: 1rem;
 }
