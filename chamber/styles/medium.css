@@ -2,11 +2,11 @@
     .chmain{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-areas: "md1 md1"
+        grid-template-areas: "md4 md4"
                              "md5 md5"
                              "md6 md6"
                              "md3 md3" 
-                             "md4 md2"
+                             "md1 md2"
                              ;
     }
 
@@ -19,6 +19,7 @@
     }
 
     .md3{
+        display: block;
         grid-area: md3;
     }
 

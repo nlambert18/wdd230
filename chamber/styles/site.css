@@ -13,7 +13,7 @@ header, footer{
 }
 
 header{
-    display: block;
+    display: grid;
     
 }
 
@@ -33,9 +33,12 @@ footer{
     grid-row: 1/2;
 }
 
-nav{
+.navdiv{
     padding: 1rem;
-    grid-column: 2/3;
+    grid-column: 3/4;
+    justify-content: right;
+    display: flex;
+
 }
 
 .htext{
@@ -60,6 +63,7 @@ nav ul {
     flex-direction: column;
     list-style: none;
     position: relative;
+    padding-inline-start: 0px;
     
   }
 
@@ -71,6 +75,7 @@ nav ul {
 
     
     background-color: rgb(119, 119, 199);
+    padding: 1rem;
 }
 
 header .logo{
@@ -123,8 +128,7 @@ main div{
 
 .md6p{
     border: 1px black solid;
-    margin: auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 #sp3{
@@ -174,7 +178,7 @@ nav ul li:hover{
   }
   
   #menu-closed{
-    display: inline;
+    display: flex;
   
   }
   
@@ -183,7 +187,7 @@ nav ul li:hover{
   }
   
   #menu-open.menu-active{
-    display: inline;
+    display: flex;
   }
   
   #menu-closed.menu-active{
@@ -212,4 +216,53 @@ nav ul li:hover{
     border-bottom: 1px solid black;
     display: block;
     padding: .5rem;
+}
+
+.md4 {
+    background-image: url("../images/boardwalk.jpg");
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+}
+
+.md4 button{
+    position: absolute;
+    font-size: 1.5rem;
+    
+    color: white;
+    bottom: 30px;
+    right: 25px;
+    background-color: brown;
+    padding: .5rem;
+}
+
+.md5{
+text-align: center;
+}
+
+.md1{
+ text-align: center;
+}
+
+.md3{
+    display: none;
+    padding-top: 2rem;
+    text-align: center;
+   }
+
+.md3 button{
+font-size: 1.5rem;
+padding: .5rem;
+min-width: 150px;
+color: white;
+background-color: brown;
+}
+
+.descript{
+border-bottom: 1px black solid;
+padding-bottom: 1rem;   
+}
+
+.hamburger{
+    justify-self: right;
 }

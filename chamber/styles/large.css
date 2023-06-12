@@ -52,7 +52,7 @@
       }
 
       .navdiv{
-        
+        justify-content: center;
         padding: 1rem;
         grid-column: 1/4;
         grid-row: 2/3
