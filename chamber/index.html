@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/head_foot.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,16 +29,16 @@
             </div>
         <div class="navdiv">
             <nav>
-                <button class="hamburger" id="hamburger-menu">
+                <div class="hambutton"><button id="hamburger-menu">
                     <span id="menu-closed">&equiv;</span>
                     <span id="menu-open">X</span>
-                </button>
-                <ul id="navbar">
+                </button></div>
+                <div class="hamlist"><ul id="navbar">
                     <li class="active"><a id="active" href="index.html">Discover</a></li>
                     <li><a>Directory</a></li>
                     <li><a>Join</a></li>
                     <li><a>Contact</a></li>
-                </ul>
+                </ul></div>
             </nav>
         </div>
         <div class="date"><span id="fulldate"></span></div>
@@ -56,10 +57,10 @@
         <div class="weather">
             <p>Weather</p>
             <img class="weatherimg" src="./images/weather.webp" alt="weather">
-            <p>76&degF</p>
+            <p><span id="temp">?</span>&deg;F</p>
             <p class="looks">Sunny</p>
-            <p>Wind speed: 2.5 km/h </p>
-            <p>Wind Chill: N/A</p>
+            <p>Wind speed: <span id="windspeed">?</span> km/h </p>
+            <p>Wind Chill: <span id="windchill">?</span></p>
         </div>
         <div class="md3">
             <button>Join us now</button>
