@@ -70,7 +70,7 @@ nav ul {
   nav ul li{
     border: 1px white solid;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     min-width: 10em;
 
     
@@ -221,7 +221,10 @@ nav ul li:hover{
 }
 
 .md4 {
-    background-image: url("../images/boardwalk.jpg");
+    /* background-image: image-set(
+        url("../images/herosmall.webp") 1x,
+        url("../images/hero37.5em.webp") 1x,
+        url("../images/hero60em.webp") 2x); */
     background-size: cover;
     min-height: 300px;
     position: relative;
@@ -275,4 +278,8 @@ padding-bottom: 1rem;
 
 .md5{
     padding: 1rem;
+}
+
+.hambutton{
+    text-align: right;
 }
